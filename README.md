@@ -20,18 +20,18 @@
 
    <h3>Backend</h3>
     <pre><code>
-   cd backend
-npm install
-nodemon server.js
+        cd backend
+        npm install
+        nodemon server.js
     </code></pre>
 
    <p>Backend will run on: <code>http://localhost:8000</code></p>
 
    <h3>Frontend</h3>
     <pre><code>
-cd frontend/project
-npm install
-npm run dev
+        cd frontend/project
+        npm install
+        npm run dev
     </code></pre>
 
    <p>Frontend will run on: <code>http://localhost:5173</code></p>
@@ -58,10 +58,4 @@ npm run dev
         <li>Runs locally only (no deployment)</li>
     </ul>
 
-   <h2>📝 TODO (Optional)</h2>
-    <ul>
-        <li>Add authentication</li>
-        <li>Deploy app</li>
-        <li>Add search/pagination</li>
-        <li>Use cloud storage (e.g. AWS S3)</li>
-    </ul>
+   
