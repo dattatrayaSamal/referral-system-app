@@ -1,5 +1,8 @@
 # referral-system-app
 
+
+A React + Node.js app to refer candidates, manage statuses, and upload & view resumes.
+
 ![Dashboard](frontend/project/public/workoAI.png)
 
 ## Features
