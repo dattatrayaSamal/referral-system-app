@@ -29,8 +29,7 @@ A React + Node.js app to refer candidates, manage statuses, and upload & view re
    
 Backend will run on http://localhost:8000.
 
-Frontend
-
+###Frontend
 1. Navigate to the frontend folder:
    cd frontend
 
@@ -58,10 +57,10 @@ Status values are limited to "Pending", "Reviewed", and "Hired".
 The app currently runs locally; no live deployment included.
 
 
-API Endpoints
+###API Endpoints
 
-.GET /api/candidates — fetch all candidates
+##GET /api/candidates — fetch all candidates
 
-.POST /api/candidates — refer new candidate
+##POST /api/candidates — refer new candidate
 
-.PUT /api/candidates/:id/status — update candidate status
+##PUT /api/candidates/:id/status — update candidate status
