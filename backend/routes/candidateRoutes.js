@@ -9,13 +9,12 @@ const {
 
 const router = express.Router();
 
-// File upload setup (Multer)
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, "./uploads/"); // Store the uploaded files in the 'uploads' folder
+    cb(null, "./uploads/");
   },
   filename: (req, file, cb) => {
-    cb(null, Date.now() + path.extname(file.originalname)); // Use the current timestamp as the filename
+    cb(null, Date.now() + path.extname(file.originalname));
   },
 });
 
@@ -29,7 +28,6 @@ const upload = multer({
   },
 });
 
-// Routes
 router.post("/candidates", upload.single("resume"), createCandidate);
 router.get("/candidates", getCandidates);
 router.put("/candidates/:id/status", updateStatus);

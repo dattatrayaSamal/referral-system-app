@@ -1,14 +1,14 @@
 import React from "react";
-import Dashboard from "./components/Dashboard";
-import ReferralForm from "./components/ReferralForm";
+import CandidateDashboard from "./components/CandidateDashboard";
+import { ReferralProvider } from "./context/ReferralContext";
 import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <h1>Candidate Referral System</h1>
-      <ReferralForm />
-      <Dashboard />
+    <div className="App">
+      <ReferralProvider>
+        <CandidateDashboard />
+      </ReferralProvider>
     </div>
   );
 };
