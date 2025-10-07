@@ -56,3 +56,12 @@ No user authentication implemented.
 Status values are limited to "Pending", "Reviewed", and "Hired".
 
 The app currently runs locally; no live deployment included.
+
+
+API Endpoints
+
+.GET /api/candidates — fetch all candidates
+
+.POST /api/candidates — refer new candidate
+
+.PUT /api/candidates/:id/status — update candidate status
