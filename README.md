@@ -1,8 +1,6 @@
 # referral-system-app
 
-![Dashboard](assets/WorkoAI.png)
-
-
+![Dashboard](frontend/project/public/WorkoAI.png)
 
 ## Features
 - Refer new candidates with name, email, phone, job title, and resume upload (PDF only).
