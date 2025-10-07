@@ -1,5 +1,4 @@
 # referral-system-app
-# Candidate Referral App
 
 ## Features
 - Refer new candidates with name, email, phone, job title, and resume upload (PDF only).
