@@ -1,6 +1,7 @@
 # referral-system-app
 
-![Dashboard](frontend/project/public/WorkoAI.png)
+![Dashboard](assets/WorkoAI.png)
+
 
 
 ## Features
